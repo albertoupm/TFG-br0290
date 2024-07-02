@@ -44,7 +44,6 @@ public class DescargadorBOE {
             // Establecer conexión HTTP
             URL url;
             HttpURLConnection conexion;
-            //  urlBOE = "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2024-5481";
             try {
                 url = new URL(urlBOE);
                 conexion = (HttpURLConnection) url.openConnection();
